@@ -1,0 +1,40 @@
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: "Avenir", sans-serif;
+}
+
+header {
+    font-family: "Century", serif;
+    text-align: center;
+}
+
+img {
+    width: 35%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.margin-right {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
