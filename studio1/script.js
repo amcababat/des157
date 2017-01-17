@@ -1,10 +1,11 @@
 function setup() {
-    var myCanvas = createCanvas(800, 250);
+    createCanvas(800, 250);
+    background(32, 222, 227);
     myCanvas.parent('mySketch');
 }
 
 function draw() {
-    background(32, 222, 227);
+
     noStroke();
     fill(237, 233, 117);
     ellipse(340, 60, 100, 100); //left ear
