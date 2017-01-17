@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(800, 250);
+    var myCanvas = createCanvas(800, 250);
     background(32, 222, 227);
     myCanvas.parent('mySketch');
 }
@@ -65,7 +65,7 @@ function draw() {
 
     //function to change the eyes is called anger
     anger(255);
-
+}
 
 function anger(var x) {
     //defines area of top left beehive
@@ -108,5 +108,4 @@ function anger(var x) {
         ellipse(mx, my, 30, 30); //right eye
         ellipse(mx2, my, 30, 30); //left eye
     }
-}
 }
