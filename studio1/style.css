@@ -36,3 +36,9 @@ footer{
     clear:both;
     text-align: center
 }
+#mySketch{
+    width:800px;
+    height: 250px;
+    margin-left:auto;
+    margin-right:auto;
+}
