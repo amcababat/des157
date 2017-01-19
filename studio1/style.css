@@ -3,6 +3,7 @@
     font-family: "Avenir";
 }
 body{
+  background-color: rgb(71, 118, 155);
     margin-left: auto;
     margin-right:auto;
     width:90%;
@@ -22,15 +23,15 @@ header{
     width: 33.33%;
 }
 h1, h2{
-    color:black;
+    color:white;
     text-align:center;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 a:hover{
-    color: rgb(0,204,255)
+    text-decoration: underline;
 }
 footer{
     clear:both;
@@ -39,5 +40,5 @@ footer{
 #mySketch{
     width:800px;
     height: 250px;
-    
+
 }
