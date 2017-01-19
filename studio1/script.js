@@ -17,4 +17,7 @@ vertex(mouseX, (mouseY+20));
 vertex((mouseX-20), mouseY);
 endShape();
     }
+    if(mousePressed && (mouseButton == RIGHT)){
+background(131,185,224);
+}
   }
