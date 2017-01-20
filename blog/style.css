@@ -37,6 +37,7 @@ img {
 .header-width{
   width: 30%;
     height: 100%;
+    margin-right: 20px;
 }
 .body-width{
   width: 70%;
