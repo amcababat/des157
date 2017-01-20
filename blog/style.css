@@ -17,7 +17,9 @@ header {
     text-align: center;
 
 }
-
+h2{
+  font-family: "Century", serif;
+}
 img {
     width: 35%;
 }
