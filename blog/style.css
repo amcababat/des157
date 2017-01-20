@@ -16,9 +16,8 @@ header {
     font-family: "Century", serif;
     text-align: center;
     background-color(131,185, 224);
-    position: fixed;
-    top: 0px;
-    float: left;
+  height: 100%;
+
 }
 
 img {
