@@ -1,3 +1,6 @@
+*{
+  color: white;
+}
 body {
     width: 70%;
     margin-left: auto;
@@ -37,5 +40,5 @@ a {
 
 a:hover {
     text-decoration: underline;
-  
+
 }
