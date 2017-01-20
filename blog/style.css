@@ -2,6 +2,7 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(71, 118, 155);
 }
 
 p {
@@ -36,5 +37,5 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: dodgerblue;
+  
 }
