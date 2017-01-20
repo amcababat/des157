@@ -15,7 +15,7 @@ p {
 header {
     font-family: "Century", serif;
     text-align: center;
-    background-color(131,185, 224);
+    background-color: rgb(131,185, 224);
   height: 100%;
 
 }
