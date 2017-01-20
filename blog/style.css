@@ -2,7 +2,7 @@
   color: white;
 }
 body {
-    width: 80%;
+
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(71, 118, 155);
@@ -16,7 +16,6 @@ header {
     font-family: "Century", serif;
     text-align: center;
     background-color: rgb(131,185, 224);
-  height: 100%;
 
 }
 
@@ -37,6 +36,7 @@ img {
 }
 .header-width{
   width: 30%;
+    height: 100%;
 }
 .body-width{
   width: 70%;
