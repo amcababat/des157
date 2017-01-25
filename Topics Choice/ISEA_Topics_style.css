@@ -1,0 +1,15 @@
+* {
+    font-family: "Avenir";
+}
+
+body {
+    background-color: rgb(71, 118, 155);
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-width {
+    float: left;
+}
