@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+    font-family: "Calibri", sans-serif;
+}
+
+body {
+    width: 60%;
+    margin-left: 20px;
+    background-image: url(cardcaptor_sakura_copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(81, 38, 61);
+}
+
+section {
+    background-color: rgba(255, 209, 220, 0.8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.b_margin {
+    margin-bottom: 30px;
+}
+
+.inline {
+    display: inline;
+}
+
+.r_margin {
+    margin-right: 2px;
+}
+
+.l_margin {
+    margin-left: 2px;
+}
