@@ -18,6 +18,9 @@ body {
     color: rgb(81, 38, 61);
 }
 
+section:first-child{
+  text-align: center;
+}
 section {
     background-color: rgba(255, 209, 220, 0.8);
     margin-top: 20px;
