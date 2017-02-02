@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cat's Hat</title>
+</head>
+
+<body>
+    <p style="text-align: center float: center"> <img src="img/hat.png" id="hat" style="position: absolute"> <img src="img/cat.png" id="cat" style="position: relative"> </p>
+    <script>
+        var cat = document.querySelector("#cat");
+        var hat = document.querySelector("#hat");
+        var angle = 0,
+            lastTime = null;
+
+        function animate(time) {
+            if (lastTime != null) angle += (time - lastTime) * 0.002;
+            lastTime = time;
+            //moving in circles is done using th trigonometry functions Math.cos and Math.sin
+            //Math.cos tells you the x-coordinate of the point that correspondes to the given position around the circle
+            //Math.sin gives the y-coordinate
+            //20 is the vertical radius of the circle
+            //attach "px" to the number to tell the browser we are counting in pixels
+            cat.style.top = (Math.sin(angle) * 500) + "px";
+            cat.style.left = (Math.cos(angle) * 800) + "px";
+
+            hat.style.top = (Math.sin(angle) * 200) + "px"; //controls the y-coordinate
+            hat.style.left = (Math.cos(angle) * 400)
+            "px"; //controls the x
+            //            Let the browser update again and again
+            requestAnimationFrame(animate);
+        }
+        requestAnimationFrame(animate);
+    </script>
+</body>
+
+</html>
