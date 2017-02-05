@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+    font-family: "Avenir", sans-serif;
+}
+
+body {
+    background-color: rgb(247, 242, 242);
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+
+/*the class fade will deal with each images opacity*/
+
+.fade {
+    opacity: 0.1;
+}
+
+.shelf-width {
+    width: 257px;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.float_left {
+    float: left;
+}
+
+#fix {
+    width: 300px;
+    position: fixed;
+    top: 0px;
+    left: 800px;
+}
+
+
+/* inner and so on will deal have inner HTML*/
+
+
+/*relative_one and so on will deal with positioning the img. apply to the p tags*/
+
+#relative_one {
+    position: absolute;
+    left: 14px;
+    top: -6px;
+}
+
+#relative_two {
+    position: absolute;
+    left: 270px;
+    top: -9px;
+}
+
+#relative_three {
+    position: absolute;
+    left: 526px;
+    top: -7px;
+}
+
+#relative_four {
+    position: absolute;
+    left: 13px;
+    top: 499px;
+}
+
+#relative_five {
+    position: absolute;
+    left: 271px;
+    top: 501px;
+}
+
+#relative_six {
+    position: absolute;
+    left: 523px;
+    top: 497px;
+}
+
+
+/*full_one and so on will deal with giving each imag their full opacity back*/
+
+#full_one:hover {
+    opacity: 1;
+}
+
+#full_two:hover {
+    opacity: 1;
+}
+
+#full_three:hover {
+    opacity: 1;
+}
+
+#full_four:hover {
+    opacity: 1;
+}
+
+#full_five:hover {
+    opacity: 1;
+}
+
+#full_six:hover {
+    opacity: 1;
+}
