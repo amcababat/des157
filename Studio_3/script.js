@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     //make the function
     full_six.addEventListener('mouseover', function () {
         full_six.style.transition = "opacity 1s";
-        inner.innerHTML = "I aim to learn about animation someday. So I bought books on animation sometimes, but I haven't gotten as far as I wanted to in reading them."
+        inner.innerHTML = "I aim to learn about animation someday. So I buy books on animation sometimes, but I haven't gotten as far as I wanted to in reading them."
     });
 
 });
