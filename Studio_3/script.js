@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
         full_one.style.transition = "opacity 1s";
         inner.innerHTML = "I started reading manga when I was eight. My parents didn't really like that I spend most of my allowance on comic books."
     });
-
+    full_one.addEventListener('mouseout', function() {
+      inner.innerHTML = ""
+    });
     //code for design books
     //make the variable
     var full_two = document.getElementById('full_two');
