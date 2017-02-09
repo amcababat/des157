@@ -6,11 +6,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     // all other js here
     //define variables
     var inner = document.getElementById('inner');
-    inner.addEventListener('mouseout', mouseOut);
 
-    function mouseOut() {
-        inner.innerHTML = "";
-    }
 
     var full_one = document.getElementById('full_one');
 
