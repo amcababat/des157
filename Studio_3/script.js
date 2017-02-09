@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
         full_one.style.transition = "opacity 1s";
         inner.innerHTML = "I started reading manga when I was eight. My parents didn't really like that I spend most of my allowance on comic books."
     });
-    full_one.addEventListener('mouseout', function() {
-      inner.innerHTML = ""
+    full_one.addEventListener('mouseout', function () {
+        inner.innerHTML = ""
     });
     //code for design books
     //make the variable
@@ -29,6 +29,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
         full_two.style.transition = "opacity 1s";
         inner.innerHTML = "Ever since I switched my major to design, I started to love learning again. I always feel as if I am way behind in skill in comparison to my peers, so I buy design books and keep the textbooks from the class from time to time."
     });
+    full_two.addEventListener('mouseout', function () {
+        inner.innerHTML = ""
+    });
     //code for sketchbooks
     //make the variable
     var full_three = document.getElementById('full_three');
@@ -36,6 +39,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
     full_three.addEventListener('mouseover', function () {
         full_three.style.transition = "opacity 1s";
         inner.innerHTML = "I've been drawing since I was little. I like to draw characters and figures, but these days my sketchbooks are mostly filled with design sketches."
+    });
+
+    full_three = addEventListener('mouseover', function () {
+        inner.innerHTML = ""
     });
     //code for sci-fi books
     //make the variable
@@ -45,6 +52,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
         full_four.style.transition = "opacity 1s";
         inner.innerHTML = "These are some of the many sci-fi books I own. I started to read avidly when I was eleven. From then on, sci-fi, fantasy, and fiction books are part of what I spent my allowance on."
     });
+    full_four = addEventListener('mouseover', function () {
+        inner.innerHTML = ""
+    });
     //code for plushie
     //make the variable
     var full_five = document.getElementById('full_five');
@@ -52,6 +62,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
     full_five.addEventListener('mouseover', function () {
         full_five.style.transition = "opacity 1s";
         inner.innerHTML = "Stitch is one of my all-time favorite characters. I own several plushies of him as well as other characters."
+    });
+    full_five = addEventListener('mouseover', function () {
+        inner.innerHTML = ""
     });
     //code for animation books
     //make the variable
@@ -61,5 +74,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         full_six.style.transition = "opacity 1s";
         inner.innerHTML = "I aim to learn about animation someday. So I buy books on animation sometimes, but I haven't gotten as far as I wanted to in reading them."
     });
-
+    full_six.addEventListener('mouseover', function () {
+        inner.innerHTML = ""
+    });
 });
