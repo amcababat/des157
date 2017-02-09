@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://glendadrew.github.io/des157-w17/html/bookExTemplate.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>! ADD A DESCRIPTIVE TITLE HERE...DO NOT FORGET TO UPDATE THIS !</title>
+ <style>
+  body {
+    
+    background: white;
+  }
+  .dot {
+    height: 8px; width: 8px;
+    border-radius: 4px; /* rounds corners */
+    background: teal;
+    position: absolute;
+  }
+</style>
+    <html>
+    <body>
+<script>
+  addEventListener("mousemove", function(event) {
+    var dot = document.createElement("div");
+    dot.className = "dot";
+    dot.style.left = event.pageX + "px";
+    dot.style.top = event.pageY + "px";
+    document.body.appendChild(dot);
+  });
+
+</script>
+
+</body></html>
