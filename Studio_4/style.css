@@ -6,68 +6,68 @@
 /* start all css with a reset */
 
 body {
-    background-color: rgb(242, 210, 233);
-    color: rgb(209, 23, 103);
-    font-family: cursive;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  background-color: rgb(242, 210, 233);
+  color: rgb(209, 23, 103);
+  font-family: cursive;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .head_size {
-    font-size: 20pt;
+  font-size: 20pt;
 }
 
 .col-1 {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .col-2 {
-    width: 40%;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 #countdown {
-    font-size: 20pt;
+  font-size: 20pt;
 }
 
 #c_date {
-    font-size: 18pt;
+  font-size: 18pt;
 }
 
 #show_date {
-    opacity: 0;
+  opacity: 0;
 }
 
 h2 {
-    display: none;
+  display: none;
 }
 
 #c_date {
-    opacity: 0;
+  opacity: 0;
 }
 
 #ask {
-    font-size: 16pt;
-    text-align: center;
+  font-size: 16pt;
+  text-align: center;
 }
 
 img {
-    width: 90%;
+  width: 90%;
 }
 
 #ask {
-    opacity: 0;
+  opacity: 0;
 }
 
 a {
-    color: rgb(209, 23, 103);
-    text-decoration: none;
+  color: rgb(209, 23, 103);
+  text-decoration: none;
 }
