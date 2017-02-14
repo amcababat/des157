@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
     t_date.addEventListener('mouseout', function () {
         console.log('mouseout on t_date');
-        clearTimeout(tiptimer);
+        clearTimeout(tipTimer);
         show_date.style.opacity = 0;
     });
 
