@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     var n = d.getDate();
     t_date.addEventListener('mouseover', function () {
         console.log('mouseover on todays date is');
-        tipTimer = setTimeout(showTheDate, 1000);
+        tipTimer = setInterval(showTheDate, 1000);
     });
     t_date.addEventListener('mouseout', function () {
         console.log('mouseout on t_date');
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     var imgs_array
     question.addEventListener('mouseover', function () {
         console.log('mouse over on hover me heart');
-        a_Tip = setTimeout(askQuestion, 1000);
+        a_Tip = setInterval(askQuestion, 1000);
     });
     question.addEventListener('mouseout', function () {
         clearTimeout(a_Tip);
