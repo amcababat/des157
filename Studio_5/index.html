@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery Mobile</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src='script.js' type="text/javascript"></script>
+    <!-- Include meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- Include the jQuery library -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Include the jQuery Mobile library -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <!--    below creates the page-->
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>Welcome To My Homepage</h1>
+        </div>
+        <!--        below is the real content-->
+        <div data-role="main" class="ui-content">
+            <p>Welcome!</p>
+            <p>
+                The Hawaiian Islands is mostly known for the luau's and white sandy beaches. However for the locals, Hawai'i is much more than that. During this time of the year, the locals (at least the students) are starting to think about May Day.
+            </p>
+            <p>
+                For other people around the world, May Day is when they celebrate the coming of spring. May Day in Hawai'i is called Lei Day thanks to writer and poet Don Blanding who suggested that there should be dedicated to the Hawaiian tradition of making and wearing leis. Another writer named Grace Tower Warren came up with the idea that this holiday should coincide with May 1. Eventually the first day of May became known as Lei Day since 1928. To read more about Lei Day, click <a href="https://www.hawaii.com/discover/may-day-in-hawaii/">here</a>.
+            </p>
+            <p>
+                In celebration of Lei Day, I made this prototype app that will take you on this island tour of the Hawaiian Islands. Even as I am saying that, this knowledge is consisted of information found on the internet from tourists companies and some knowledge based on the memories of a local girl. The best information I can offer is the Hawaiian names of the plant that represents each island. Despite saying that, I would like to clarify. I am not Hawaiian, but I love my state and the people there very much. I just felt a need to talk about it.
+            </p>
+
+            <a href="#niihau" class="ui-btn">Let's start our tour</a>
+            <div data-role="footer">
+                <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5 </a>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+            </div>
+        </div>
+    </div>
+    <!--below makes the footer-->
+    <div data-role="page" id="niihau">
+        <div data-role="header">
+            <h1>Ni'ihau</h1>
+            <a href="#pageone" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home Button</a>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h3>The Forbidden Isle</h3>
+            <p>
+                Ni'ihau is the westernmost island in Hawai'i. It purchased almost 125 years ago by the Robinson family. Because it is privately owned, even Hawai'i residents are not allowed to go to this island. US Army soldiers goes there from time to time but they do not stay there. People have to be either invited or be granted permission by the owners of that island. Those who do live there live in isolation apart from the weekly shipping and the occasional emergency helicopter.
+            </p>
+            <p>
+                Residents of Ni'ihau try to keep the Hawaiian culture alive by living as close to how their ancestors lived centuries ago, before contact with people other people. There are some companies that give tours of the island but even those tours are restricted from going to several areas on the island. The pupu shells seen on the coast represent this island.
+            </p>
+            <p>
+
+            </p>
+            <a href="#kauai" class="ui-btn">Next Stop is Kauai'i</a>
+
+        </div>
+    </div>
+    <div data-role="page" id="kauai">
+        <div data-role="header">
+            <h1>Kaua'i</h1>
+            <a href="#pageone" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home Button</a>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h3>The Garden Isle</h3>
+            <p>
+                Representing the island of Kaua'i is the greeb mokihana berry that is grown only on the slopes of tallest mountain on the island Mount Waialelae. Kaua'i is the oldest of all the main hawaiian Islands. It home to the wettest spot on earth with an annual average rainfall of 450-470 inches located on the east side of Mount Wai'ale'ale. Its nickname came from the island's mountainous and thik vegetation. Over 90% of the island cannot be reached by road. These roads are mostly stretching and twisting around the island and making the tourists dizzy.
+            </p>
+            <p>
+                Besides being another spot for tourists, Kaua'i has been used for the backdrop of many feature films such as <em>Jurassic Park</em>, <em>Indiana Jones</em>, and <em>The Hunger Games</em>. Another side fact of this island would be that its dry west coast is home to the U.S. Navy's Pacific Missile Range Facility near the Waimea canyons. When you are on this island, it would be highly appreciated to take care of the vegetation and waters on this island.
+            </p>
+        </div>
+        <a href="#oahu" class="ui-btn">Let's continue on to O'ahu</a>
+    </div>
+    <div data-role="page" id="oahu">
+        <div data-role="header">
+            <h1>O'ahu</h1>
+            <a href="#pageone" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home Button</a>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h3>The Gathering Isle</h3>
+            <p>
+                This island is home to the majority of Hawai'i. Representing this island is the yellow ilima flower that is native to this particular island. The locals are a mix of Eastern and Western cultures due to the fact that people from all over the world traveled to work in the sugar plantations on this island. Even today O'ahu is still welcoming people from all over the world in the Waikiki area with the expensive and bright shops and the ever famous luau's.
+            </p>
+            <p>
+                However, beyond this area are great natural beauties such as Diamond Head where people may be able to see tiny diamonds (taking these as souvenirs is prohibited) after a long hike. Further in the mountains, local teens travel there to hike and take a dip at one of the lakes at the end of a waterfall. However, the most exciting thing I find at my home island is the food with the various dishes from different cultures inhabiting the city. I seeking these restaurants out to as close to life on O'ahu as possible.
+            </p>
+        </div>
+        <a href="#molokai" class="ui-btn">Let's checkout Moloka'i</a>
+    </div>
+    <div data-role="page" id="molokai">
+        <div data-role="header">
+            <h1>Molokai'i</h1>
+            <a href="#pageone" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home Button</a>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h3>The Friendly Isle</h3>
+            <p>
+                This island is represented by the kukui blossom, whose seed is used for making kukui nut leis. Unlike O'ahu, Moloka'i is home to a very rural landscape, the highest sea cliffs in the world, and Hawaii's longest continuous fringing reef. There are no towns and no public transportation on this island. If there are any people who wants to see a Hawaiian landscape without any big buildings, then this is the island.
+            </p>
+            <a href="#lanai" class="ui-btn">Take your time to visit Lana'i</a>
+        </div>
+    </div>
+    <div data-role="page" id="lanai">
+        <div data-role="header">
+            <h1>Lana'i</h1>
+            <a href="#pageone" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home Button</a>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h3>The Pineapple Island</h3>
+            <p>
+                Lana'i was once home to numerous pineapple farms, hence its nickname. However, due to real estate, the number of pineapple farms are lower than before. Representing this island is the kaunaoa air plant
+            </p>
+            <h1>Kaho'olawe</h1>
+            <h3>The Target Island</h3>
+            <p>
+                I am including another island on this page because there is not much to be said about it. Unlike Ni'ihau, this isalnd is not inhabited by anyone nor is it owned by anyone. This particular island was given its nickname "The Target Island" because there are bombs on this island. This was a result of the U.S. military using the island for training, particularly for target practice. Even today, not all the bombs were removed from the island. The flower representing this island is the silver-gray hinahina flower.
+            </p>
+            <a href="#maui" class="ui-btn">Next is Maui</a>
+        </div>
+    </div>
+    <div data-role="page" id="maui">
+        <div data-role="header">
+            <h1>maui</h1>
+            <a href="#pageone" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home Button</a>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h3>The Valley Isle</h3>
+            <p>
+                The pink lokelani flower is the only non-native plant that represents one of the islands of the Hawai'i, enchanting the farmers with its fragrant scent. An abundant number of farms are on this island from sugar, pineapple, and cattle. The volcano that made this island called Haleakala is the largest dormant volcano creater in the world. Lahaina town was once Hawai'i's capital before 1845 when the island was the ideal place for whaling. Now people visit the island just to see the breaching whales during mating season.
+            </p>
+            <a href="#big" class="ui-btn">Our last stop is Hawai'i</a>
+        </div>
+    </div>
+    <div data-role="page" id="big">
+        <div data-role="header">
+            <h1>Hawai'i</h1>
+            <a href="#pageone" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home Button</a>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h3>The Big Island</h3>
+            <p>
+                Because of its great landmass in comparison to the other islands and the fact that volcanoes are still flowing on this island, Hawai'i is rather known as the Big Island and is the youngest of the islands chains. It is home to a wide range of climates from the volcanoes, snow cap mountains, waterfalls, deserts, and forests.
+            </p>
+            <p>
+                Since the volcanoes are still flowing, locals on the island have to be watchfull of where to live. People are restricted to go to certain areas without authorities to accompany them. Despite that, the volcanic soil allows the island to host numerous kinds of crops and cattle.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
