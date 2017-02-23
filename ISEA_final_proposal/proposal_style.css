@@ -1,0 +1,19 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: rgb(71, 118, 155);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Century", serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
