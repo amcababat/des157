@@ -1,0 +1,16 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: rgb(71, 118, 155);
+}
+
+p {
+    font-family: "Avenir", sans-serif;
+}
+
+h1,
+h3 {
+    font-family: "Century", serif;
+}
