@@ -1,0 +1,23 @@
+* {
+    color: white;
+    font-family: "Avenir", sans-serif;
+}
+
+body {
+    background-color: rgb(71, 118, 155);
+}
+
+img {
+    width: 20%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+ul {
+    float: left;
+}
+
+p {
+    clear: both;
+    margin-top: 20px;
+}
