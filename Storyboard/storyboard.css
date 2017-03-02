@@ -1,0 +1,21 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: rgb(71, 118, 155);
+}
+
+h3 {
+    font-family: "Century", serif;
+}
+
+p {
+    font-family: "Avenir", sans-serif;
+}
+
+img {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
