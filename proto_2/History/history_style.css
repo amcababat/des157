@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(207, 241, 255);
+    width: 125%;
+}
+
+p {
+    width: 40%;
+}
+
+img {
+    width: 10%;
+    float: left;
+    margin-left: 1%;
+}
+
+#pos {
+    position: absolute;
+    bottom: 10%;
+}
