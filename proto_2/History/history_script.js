@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
             dot_7.addEventListener('mouseout', function () {
                 clearInterval(timer_7);
-            })
+            });
 
             function dot7() {
                 inner.innerHTML = "New U.S. legislation ends the competitive advantages that earlier treaties afforded the Hawai'i sugar industry, dealing the sugar businessmen in Hawai'i a devasting blow. As a result, they start planning for the annexation of Hawai'i to the U.S. as a permanent solution to ensure their continued profits. This plot resulted in the formation of the Committee of Safety."
@@ -106,12 +106,5 @@ document.addEventListener("DOMContentLoaded", function () {
             function dot8() {
                 inner.innerHTML = "The Committe of Safety convinced American Ambassador Minister Stevens to land American troops on Hawaiian soil. The monarch at the time Queen Liliu'okalani did not want conflict with the U.S. S"
                     //9
-                var timer_9;
-                var dot_9 = document.getElementById('dot-9');
-                dot_9.addEventListener('mouseover', function () {
-                    timer_9 = setInterval(dot9, 1000);
-                });
-                dot_9.addEventListener('mouseout', function () {
-                    clearInterval(timer_9);
-                });
-            });
+
+            }
