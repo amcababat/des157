@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function dot1() {
-        inner.innerHTML = "0-500 A.D. - Polynesians settle on Hawai'i. Hawaiian fishponds, agricultural systems, complex governing mechanisms, featherwork, hula, and a host of other Hawaiian inoovations emerged until the first European contact."
+        inner.innerHTML = "0-500 A.D. - Polynesians settle on Hawai'i. Hawaiian fishponds, agricultural systems, complex governing mechanisms, featherwork, hula, and a host of other Hawaiian innovations emerged until the first European contact."
     }
 
     //2
