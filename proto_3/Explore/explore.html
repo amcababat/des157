@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Explore</title>
+    <link rel="stylesheet" href="explore_style.css">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.0/mapbox-gl.js'></script>
+    <link href='mapbox://styles/amcababat/cj01o4n6n00052sntgwvirvjp' rel='stylesheet' />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="float-left">
+            <ul class="float-left">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../history/history.html">History</a></li>
+                <li><a href="../kauai/kauai.html">Kaua'i</a></li>
+                <li><a href=" ">O'ahu</a></li>
+                <li><a href=" ">Maui</a></li>
+                <li><a href=" ">Big Island</a></li>
+            </ul>
+        </ul>
+    </header>
+    <div id="map">
+
+    </div>
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiYW1jYWJhYmF0IiwiYSI6ImNpejkwcDdydTAxNHMzMXFvNHU3NThma3oifQ.P6BlDEpJXpbC_V9rNbc9DA';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/amcababat/cj01o4n6n00052sntgwvirvjp',
+            center: [-157.381, 20.890],
+            zoom: 6.6
+        });
+    </script>
+
+    <!--{ type: 'Feature', geometry: { type: 'Point', coordinates: [-159.584, 21.920] }, properties: { title: 'Hanapepe Town', description: "Hanapepe Town was once alive with G.I.'s and sailors until 1950s. Now it is home to artistic shops.", iconAnchor: [25, 25], popupAnchor: [0, -25], className: 'dot' } } ];-->
+
+</body>
+
+</html>

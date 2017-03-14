@@ -1,0 +1,43 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    float: left;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    background-color: rgb(153, 233, 218);
+    width: 100%;
+    height: 90%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    display: inline;
+    margin-right: 4%;
+}
+
+a {
+    color: white;
+    font-family: "Verdana", "sans-serif";
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

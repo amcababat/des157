@@ -1,0 +1,62 @@
+body {
+    background-image: url(back_pattern.png);
+    width: 125%;
+}
+
+header {
+    background-color: rgb(153, 233, 218);
+    width: 30%;
+    height: 100%;
+    padding: 5%;
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+a {
+    font-family: "Verdana", "sans-serif";
+    color: white;
+    text-decoration: none;
+}
+
+#head {
+    font-family: "Garamond", "serif";
+    color: white;
+}
+
+#inner {
+    font-family: "Verdana", "sans-serif";
+}
+
+img {
+    width: 20%;
+}
+
+#pos {
+    position: absolute;
+}
+
+#circle {
+    width: 40%;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+}
+
+.icons {
+    position: relative;
+    left: 99%;
+    width: 79%;
+}
+
+li {
+    margin-top: 10%;
+}
+
+ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
