@@ -1,24 +1,16 @@
 body {
     background-image: url(back_pattern.png);
-    width: 125%;
 }
 
-header {
+#head {
     background-color: rgb(153, 233, 218);
     width: 30%;
     height: 100%;
     padding: 5%;
     float: left;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
-    bottom: 0px;
-}
-
-a {
-    font-family: "Verdana", "sans-serif";
-    color: white;
-    text-decoration: none;
 }
 
 #head {
@@ -36,19 +28,15 @@ img {
 
 #pos {
     position: absolute;
-}
-
-#circle {
-    width: 40%;
-    position: fixed;
-    left: 50%;
-    top: 5%;
+    top: 0px;
+    right: 0px;
+    width: 60%;
 }
 
 .icons {
-    position: relative;
-    left: 99%;
-    width: 79%;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li {
