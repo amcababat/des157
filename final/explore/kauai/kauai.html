@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>The Garden Isle</title>
+    <link rel="stylesheet" href="kauai_style.css">
+    <!--    <script src='history_script.js' type="text/javascript"></script>-->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.0/mapbox-gl.js'></script>
+    <link href='mapbox://styles/amcababat/cj01o4n6n00052sntgwvirvjp' rel='stylesheet' />
+</head>
+
+<body>
+    <section id=header>
+        <ul class="float-left">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../history/history.html">History</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">Explore</button>
+                <div class="dropdown-content">
+                    <a href="../kauai/kauai.html">Kaua'i</a>
+                    <a href="../oahu/oahu.html">O'ahu</a>
+                    <a href="../maui/maui.html">Maui</a>
+                    <a href="../big_island/big_island.html">Big Island</a>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <section id="map">
+
+    </section>
+    <section id="section">
+        <h2>Kaua'i</h2>
+        <p>
+            This island is also known as the Garden Isle for its lush greenery. It is the oldest of all the main Hawaiian Islands and home to the wettest spot on earth with an annual average rainfall of 450-470 inches. You can travel to <strong>Hanapepe Town</strong> in the Hanapepe Valley. Before Western contact, Hanapepe was home to many crops such as bananas and sweet potato. Here, the native Hawaiians developed salt from from saltwater ponds to trade. From this development, salt trading was the earliest entrepreneurial legacy of Hanapepe. Rights to harvest salt in this valley are handed down through families to this day.
+        </p>
+        <p>
+            After Western contact, specifically in the 1880s, the sugar industry flourished. Labor demand for these sugar plantations brought in immigrants from China, Japan, and the Philippines. Many who retired from the sugar plantation or could not adjust to the strict working conditions came to Hanapepe to grow other crops such as rice and taro, thus starting small farms or businesses to serve the local community.
+        </p>
+        <p>
+            Having once been a place for plantation workers to earn a living harvesting crops and a town bustling with G.I.'s and sailor during the time from WWI to 1950s, the buildings in Hanapepe Town are currently home to small shops, local eateries, and many art galleries. Once every Friday, artists of many practices from painters to sculptors open their galleries to the public.
+        </p>
+        <p>
+            However, if you are one for museums, the <strong>Kaua'i Museum</strong> is the historical heart of the island of Kaua'i as it is literally located in the heart of Lihu'e. Here, you can learn about the geological formation of the Hawaiian Islands, early Native Hawaiian life, Captain Cook's arrival on Kaua'i's shores, and the Hawaiian Monarchy.
+        </p>
+        <p>
+            If you sway more towards archiecture and furniture design, you can go to <strong>Wai'oli Park</strong>. This landmark was once home to missionaries in 1837. It was restored in 1921 and listed on the National Register of Historic Places. You can enjoy lava rock chimney and furniture made from koa wood. The front of the house is occupied by the Wai'oli Hui'ia Church founded in 1834, which was the first church to be built on the island.
+        </p>
+    </section>
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiYW1jYWJhYmF0IiwiYSI6ImNpejkwcDdydTAxNHMzMXFvNHU3NThma3oifQ.P6BlDEpJXpbC_V9rNbc9DA';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/amcababat/cj0b6kqi700142srp74z5xjun',
+            center: [-159.487, 22.040],
+            zoom: 8.8
+        });
+    </script>
+</body>
+
+</html>

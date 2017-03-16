@@ -1,0 +1,38 @@
+.img-size {
+    width: 50%;
+    height: 50%;
+}
+
+.left_col {
+    position: absolute;
+    left: 0px;
+}
+
+.right_col {
+    position: absolute;
+    right: 0px;
+}
+
+.top_row {
+    position: absolute;
+    top: 0px;
+}
+
+.b_row {
+    position: absolute;
+    bottom: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.click {
+    width: 15%;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    z-index: 1;
+    color: rgb(88, 180, 166);
+    font-family: "Verdana", sans-serif;
+}

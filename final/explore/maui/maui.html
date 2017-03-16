@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Maui</title>
+    <link rel="stylesheet" href="maui_style.css">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.0/mapbox-gl.js'></script>
+    <link href='mapbox://styles/amcababat/cj01o4n6n00052sntgwvirvjp' rel='stylesheet' />
+</head>
+
+<body>
+    <section id=header>
+        <ul class="float-left">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../history/history.html">History</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">Explore</button>
+                <div class="dropdown-content">
+                    <a href="../kauai/kauai.html">Kaua'i</a>
+                    <a href="../oahu/oahu.html">O'ahu</a>
+                    <a href="../maui/maui.html">Maui</a>
+                    <a href="../big_island/big_island.html">Big Island</a>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <section id="map">
+
+    </section>
+    <section id="section">
+        <h2>Maui</h2>
+        <p>
+            Named the Valley Isle for the two mountainous ranges creating central Maui, you may want to start your visit to this island by visiting <strong>Lahaina Town</strong>. It has 40 fine art galleries that features local artists. Several world-renowned artists have their own dedicated galleries on Front Street. It is also home to the primary harbor for snorkeling and whale watching. This is especially important during the spring when humpback whales use the warm shallow waters between the islands of Maui, Lana'i, and Kaho'olawe. Due to the town's location, it was once known as a Pacific whaling port during the early 19th century when whaling was at its peak.
+        </p>
+        <p>
+            If you want to learn about these wonderful whales and other marine life the <strong>Maui ocean center</strong> is your place. This aquarium is dubbed “The Aquarium of Hawaii” due to how the aquarium aims to replicate the natural ocean ecosystem. Because the marine park is designed to help visitors develop an understanding and appreciation of Hawai’I’s marine environment and local culture, visitors only encounter animals that live in Hawaii’s water. It has one of the largest collections of live Pacific corals in the world with over 60 exhibits. Due to having this large coral collection, the Underwater Observatory at Mau Ocean Center is considered as a one of the marine parks of Coral World International. This company has developed the only undersea observatories in the Western hemisphere and in the Red Sea. It also specializes in creating ecologically friendly tropical life systems in symbiotic environments. Maui Ocean Center maintains a close relationship with Hawaiian practictioner in the community. Under guidance, the aquarium integrates Hawaii culture in presentation, exhbits, special events, and also in the marine park’s standard of operations and service. Practitioner Kahu Dane Maxwell presides over blessings of important functions and facilites.
+        </p>
+        <p>
+            However, Maui is also home to <strong>Kahanu Garden</strong>. Located on the eastern shores of Maui, Kahanu Garden grows in isolated in one of the largest unamed native Pandanus forests in the islands. Plants from the Pacific Islands are focused here, but you can also find plants from other locations in Polynesia, Micronesia, and Melanesia. You can learn the cultural relationships between the people and these remarkable plants were transported around the Pacific on ancients voyaging canoes.
+        </p>
+    </section>
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiYW1jYWJhYmF0IiwiYSI6ImNpejkwcDdydTAxNHMzMXFvNHU3NThma3oifQ.P6BlDEpJXpbC_V9rNbc9DA';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/amcababat/cj0b7lz96001f2rp87gg8y2el',
+            center: [-156.441, 20.775],
+            zoom: 9.4
+        });
+    </script>
+</body>
+
+
+</html>
