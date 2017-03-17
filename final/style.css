@@ -11,10 +11,7 @@ p {
     font-family: "Verdana", serif;
     color: rgb(92, 180, 166);
 }
-.valid{
-  position: fixed;
-  left: 0px;
-}
+
 #header-size {
     width: 80%;
     font-size: 16pt;
