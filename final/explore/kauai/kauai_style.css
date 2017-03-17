@@ -37,31 +37,11 @@ p {
     text-decoration: underline;
 }
 
-
-/*
-#sub_head {
-    position: absolute;
-    top: 10%;
-    left: 0px;
-    background-color: rgb(153, 233, 218);
-    width: 100%;
-    height: 8%;
-}
-*/
-
 #under-ex {
     position: absolute;
     left: 20%;
     top: 0%;
     margin-left: 10%
-}
-
-.fade {
-    opacity: 0;
-}
-
-.fade:hover {
-    opacity 1;
 }
 
 #map {
