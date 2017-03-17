@@ -2,7 +2,9 @@
     width: 50%;
     height: 50%;
 }
-
+h4{
+  display: none;
+}
 .left_col {
     position: absolute;
     left: 0px;

@@ -9,6 +9,9 @@ body {
 h2 {
     font-family: "Verdana", serif;
 }
+h4{
+  display: none;
+}
 #valid{
   float:right;
 }

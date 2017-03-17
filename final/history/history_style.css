@@ -1,7 +1,9 @@
 body {
     background-image: url(back_pattern.png);
 }
-
+h4{
+  display: none;
+}
 #head {
     font-family: "Verdana", "serif";
     color: white;
