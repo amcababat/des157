@@ -9,7 +9,9 @@ body {
 h2 {
     font-family: "Verdana", serif;
 }
-
+#valid{
+  float:left;
+}
 p {
     font-family: "Verdana", sans-serif;
 }

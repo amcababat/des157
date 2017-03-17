@@ -13,7 +13,9 @@ h2 {
 p {
     font-family: "Verdana", sans-serif;
 }
-
+#valid{
+  float:right;
+}
 #header {
     position: fixed;
     z-index: 1;
