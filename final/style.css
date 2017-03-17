@@ -12,7 +12,8 @@ p {
     color: rgb(92, 180, 166);
 }
 #valid{
-  float: left;
+  position: fixed;
+  left: 0px;
 }
 #header-size {
     width: 80%;
